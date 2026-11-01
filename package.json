@@ -1,0 +1,12 @@
+{
+  "name": "boxbuddy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Home-move planner: inventory and volume estimate, truck size, load plan, QR box labels you scan to see contents, moving-day check-in, checklist and quote comparison. Static PWA, data stays on your device.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "start": "python3 -m http.server 8000 --bind 127.0.0.1"
+  },
+  "license": "MIT"
+}
